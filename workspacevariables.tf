@@ -1,3 +1,10 @@
+terraform {
+  required_providers {
+    tfe = {
+      version = "~> 0.25.0"
+    }
+  }
+}
 
 resource "tfe_organization" "test" {
   name  = "shiv-test"
