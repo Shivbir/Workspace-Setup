@@ -1,3 +1,7 @@
+provider "tfe" {
+  version = "~> 0.25.0"
+}
+
 resource "tfe_organization" "test" {
   name  = "shiv-test"
   email = "shivbir.kaur@gmail.com"
