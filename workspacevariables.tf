@@ -5,7 +5,7 @@ resource "tfe_organization" "demo" {
 
 resource "tfe_workspace" "test" {
   name         = "Network-Module"
-  organization = tfe_organization.test.id
+  organization = tfe_organization.demo.id
 }
 
 resource "tfe_variable" "test" {
