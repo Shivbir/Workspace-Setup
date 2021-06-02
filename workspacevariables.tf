@@ -1,7 +1,4 @@
-resource "tfe_organization" "test" {
-  name  = "shiv-test"
-  email = "shivbir.kaur@gmail.com"
-}
+
 
 resource "tfe_workspace" "test" {
   name         = "Network-Module"
