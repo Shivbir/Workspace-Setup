@@ -1,4 +1,4 @@
-resource "tfe_organization" "test" {
+resource "tfe_organization" "demo" {
   name  = "demo"
   email = "shivbir.kaur@gmail.com"
 }
